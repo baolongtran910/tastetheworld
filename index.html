@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tastetheworld – Du lịch vòng quanh thế giới bằng snack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="header">
+    <div class="container nav">
+      <a href="#" class="logo">Taste<span>theworld</span></a>
+      <button class="nav-toggle" aria-label="Mở menu">☰</button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#how">How to Book Your Ticket?</a>
+        <a href="#plans">Chose size</a>
+        <a href="#country">Monthly snack box</a>
+        <a href="#faq">Q&A</a>
+        <a href="#plans" class="btn btn-small">Booking</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text reveal">
+        <p class="eyebrow">Hộp snack hằng tháng</p>
+        <h1>One country every month, <br />one flavor adventure in every box.</h1>
+        <p>Discover unique snacks from all around the world, delivered right to your door.</p>
+        <div class="hero-actions">
+          <a href="#plans" class="btn">Choose your box size</a>
+          <a href="#how" class="btn btn-outline">See how it works</a>
+        </div>
+      </div>
+      <div class="hero-image reveal">
+        <!-- Thay bằng ảnh của bạn: images/hero.jpg -->
+        <img src="https://picsum.photos/seed/snackbox/640/520" alt="Tastetheworld snack box" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW IT WORKS ===== -->
+  <section class="section" id="how">
+    <div class="container">
+      <h2 class="section-title reveal">How it works</h2>
+      <div class="steps">
+        <article class="step reveal">
+          <div class="step-icon">1</div>
+          <h3>Choose a plan</h3>
+          <p>Pick the box size that suits you: small, medium or large.</p>
+        </article>
+        <article class="step reveal">
+          <div class="step-icon">2</div>
+          <h3>Get a mystery box</h3>
+          <p>Each month we pick a country and send you its signature snacks.</p>
+        </article>
+        <article class="step reveal">
+          <div class="step-icon">3</div>
+          <h3>Taste and rate</h3>
+          <p>Try every snack, give it a score and share with your friends.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PLANS ===== -->
+  <section class="section section-alt" id="plans">
+    <div class="container">
+      <h2 class="section-title reveal">Choose your box size</h2>
+      <div class="plans">
+        <article class="plan reveal">
+          <h3>Small Box</h3>
+          <p class="price">199.000₫<span>/month</span></p>
+          <ul>
+            <li>5 snacks</li>
+            <li>Country info card</li>
+            <li>Free delivery within the city</li>
+          </ul>
+          <a href="#" class="btn btn-outline">Choose this plan</a>
+        </article>
+        <article class="plan plan-featured reveal">
+          <span class="badge">Most popular</span>
+          <h3>Medium Box</h3>
+          <p class="price">349.000₫<span>/month</span></p>
+          <ul>
+            <li>10 snacks</li>
+            <li>Info card + games</li>
+            <li>Free nationwide delivery</li>
+          </ul>
+          <a href="#" class="btn">Choose this plan</a>
+        </article>
+        <article class="plan reveal">
+          <h3>Large Box</h3>
+          <p class="price">549.000₫<span>/month</span></p>
+          <ul>
+            <li>18 snacks</li>
+            <li>Surprise gift</li>
+            <li>Free nationwide delivery</li>
+          </ul>
+          <a href="#" class="btn btn-outline">Choose this plan</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COUNTRY OF THE MONTH ===== -->
+  <section class="section" id="country">
+    <div class="container">
+      <h2 class="section-title reveal">This month: Japan 🇯🇵</h2>
+      <p class="section-sub reveal">A few items from the box (replace with your own content)</p>
+      <div class="cards">
+        <!-- Nhân bản thẻ .card để thêm snack -->
+        <article class="card reveal">
+          <img src="https://picsum.photos/seed/snack1/400/300" alt="Snack 1" />
+          <div class="card-body">
+            <h3>Matcha candy</h3>
+            <p>A light, fragrant green tea flavor with a gentle sweetness.</p>
+          </div>
+        </article>
+        <article class="card reveal">
+          <img src="https://picsum.photos/seed/snack2/400/300" alt="Snack 2" />
+          <div class="card-body">
+            <h3>Senbei rice crackers</h3>
+            <p>Crispy and rich with soy sauce flavor.</p>
+          </div>
+        </article>
+        <article class="card reveal">
+          <img src="https://picsum.photos/seed/snack3/400/300" alt="Snack 3" />
+          <div class="card-body">
+            <h3>Strawberry Pocky</h3>
+            <p>Crunchy biscuit sticks coated in strawberry cream.</p>
+          </div>
+        </article>
+        <article class="card reveal">
+          <img src="https://picsum.photos/seed/snack4/400/300" alt="Snack 4" />
+          <div class="card-body">
+            <h3>Wasabi potato chips</h3>
+            <p>Spicy and sharp, one bite and you're hooked.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal">What customers say</h2>
+      <div class="quotes">
+        <blockquote class="reveal">
+          “My whole family looks forward to box day every month!”
+          <cite>— Bảo Nghi</cite>
+        </blockquote>
+        <blockquote class="reveal">
+          “A wonderful gift for anyone who loves to explore.”
+          <cite>— Ý Nhi</cite>
+        </blockquote>
+        <blockquote class="reveal">
+          “I've learned so much about different cultures through snacks.”
+          <cite>— Jack 67</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="section" id="faq">
+    <div class="container narrow">
+      <h2 class="section-title reveal">Frequently asked questions</h2>
+      <div class="faq">
+        <div class="faq-item">
+          <button class="faq-q">Can I cancel at any time? <span>+</span></button>
+          <div class="faq-a"><p>Yes. You can pause or cancel your plan before the monthly order cut-off date.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">When will my box be delivered? <span>+</span></button>
+          <div class="faq-a"><p>Boxes ship at the start of each month and arrive within 2–4 business days.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Is there a vegetarian box? <span>+</span></button>
+          <div class="faq-a"><p>Yes, just select the vegetarian option when you order.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#" class="logo logo-light">Taste<span>theworld</span></a>
+        <p>An HTML/CSS/JS practice project. The brand and all content are fictional.</p>
+      </div>
+      <div>
+        <h4>Links</h4>
+        <a href="#how">How it works</a>
+        <a href="#plans">Box plans</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <form class="newsletter" id="newsletterForm">
+        <h4>Get updates</h4>
+        <input type="email" id="emailInput" placeholder="Your Email" required />
+        <button class="btn btn-small" type="submit">Subscribe</button>
+        <p class="form-msg" id="formMsg"></p>
+      </form>
+    </div>
+    <p class="copyright">© 2026 Tastetheworld (practice project)</p>
+  </footer>
+  <!-- ===== POPUP SẢN PHẨM ===== -->
+  <div class="modal" id="productModal">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="Đóng">×</button>
+      <img id="modalImg" src="" alt="" />
+      <div class="modal-info">
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+        <button class="btn" id="addBtn">Add plan ❤</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
